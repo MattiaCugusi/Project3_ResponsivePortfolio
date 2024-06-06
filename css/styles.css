@@ -28,6 +28,10 @@ h1 {
     margin-bottom: 40px;
 }
 
+.hide-desktop-only {
+    display: none;
+}
+
 
 
 
@@ -40,6 +44,11 @@ h1 {
 
 }
 
+.hide-desktop-only {
+    display: block;
+}
+
+
 }
 
 /* Mobile View */
@@ -49,6 +58,15 @@ h1 {
 .col {
     width: 100%;
 }
+
+.hide-desktop-only {
+    display: block;
+}
+
+.hide-mobile {
+    display: none;
+}
+
 
 }
 
