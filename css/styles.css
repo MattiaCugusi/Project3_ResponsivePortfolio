@@ -17,13 +17,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 140px;
+ 
 
 }
 
 .header-container {
     background-color: rgb(60, 60, 60);
     min-height: 100px;
-    margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
+    
 }
 
 
@@ -88,7 +92,7 @@ a {
    padding: 10px 25px;
    border-style: solid;
    border-width: 1px;
-   margin-LEFT: 20px;
+   margin-left: 20px;
 }
 
 .nome {
